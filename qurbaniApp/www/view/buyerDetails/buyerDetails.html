@@ -1,0 +1,35 @@
+<ion-view cache-view="false" view-title="Saylani Qurbani Service">
+    <ion-content>
+        <br/><br/>
+        <h4 class="heading">please provide us Some Basic Information</h4>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="First Name" ng-model="buyer.fname">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Last Name" ng-model="buyer.lname">
+            </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Contact Number" ng-model="buyer.contact">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Email Address" ng-model="buyer.email" >
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Hissa" ng-model="buyer.hissa" >
+            </label>
+        </div>
+        <div class="card" ng-hide="hideImage">
+            <div class="item item-text-wrap">
+                <img src="" alt="" id="myImage" width="30%" height="70%"/>
+            </div>
+        </div>
+        <div id="map" zoom="8">
+
+        </div>
+        <button class="button button-positive col col-50 col-offset-20 space" ng-click="startCamera()">
+            <i class="icon ion-ios-camera"> Start Camera</i>
+        </button>
+        <button class="button button-positive col col-50 col-offset-20" ng-click="order()">Proceed</button>
+    </ion-content>
+</ion-view>

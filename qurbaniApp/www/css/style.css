@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+
+/*
+
+.listSpan{
+    /!*text-align: center;*!/
+    margin-left: 60px;
+}
+*/
+
+
+.mylist div img {
+    width:90%;
+    height: 90%;
+}
+
+
+.heading,.alignContent{
+    color: #346bee;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.alignContent{
+    padding: 2px;
+}
+
+.alignContent:hover{
+    background-color: #b9b7b6;
+}
+
+.space {
+    margin-bottom: 4px;
+}
+
+#map{
+    width:80%;
+    height:400px;
+    margin:10px auto;
+    box-shadow:0 3px 25px black;
+}
